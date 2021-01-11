@@ -11,7 +11,8 @@ class Complejo{
         void add(Complejo,Complejo);
         void sub(Complejo,Complejo);
         void print_add();   
-        void print_sub();     
+        void print_sub();
+        void add_real(Complejo,double);  
 };
 
 #endif

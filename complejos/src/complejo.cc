@@ -6,6 +6,11 @@ Complejo::Complejo(double _real = 0, double _imaginario = 0){
     imaginario_ = _imaginario;
 }
 
+void Complejo::add_real(Complejo complejo1,double _real){
+    real_ = complejo1.real_ + _real;
+    imaginario_ = complejo1.imaginario_;
+}
+
 void Complejo::add(Complejo complejo1,Complejo complejo2){
     real_ = complejo1.real_ + complejo2.real_;
     imaginario_ = complejo1.imaginario_ + complejo2.imaginario_;
